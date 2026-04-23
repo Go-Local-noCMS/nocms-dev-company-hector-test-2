@@ -1,0 +1,52 @@
+{
+  "colors": {
+    "primary": "#0d6e6e",
+    "secondary": "#14919b",
+    "accent": "#0891b2",
+    "background": "#ffffff",
+    "surface": "#f0f9f9",
+    "text": "#0a3030",
+    "muted": "#5f8a8a"
+  },
+  "typography": {
+    "headingFont": "Lexend",
+    "bodyFont": "Lexend",
+    "monoFont": "JetBrains Mono",
+    "scale": "compact"
+  },
+  "spacing": "default",
+  "borderRadius": "md",
+  "shadows": "subtle",
+  "mood": "Clinical precision meets teal elegance — premium, clean, ice-cold confidence",
+  "motionStyle": "subtle",
+  "layoutStyle": "data-dashboard",
+  "designRules": [
+    "LAYOUT: Dense data dashboard style — compact pricing table with sortable appearance. Labeled data pairs in tight grids for facility info. Minimal decoration, maximum information density. Clinical precision.",
+    "Pure white and teal create a premium, clinical storage environment feel",
+    "Compact typography and tight spacing project efficiency and professionalism",
+    "Single font family (Lexend) at varying weights for cohesive typography system",
+    "Subtle shadows and thin teal-tinted borders for delicate structure",
+    "Minimal motion — the design communicates through precision, not animation",
+    "Unit tables are dense data displays — compact rows, teal header, monospace dimensions and pricing for clinical precision",
+    "Facility information is organized like a control panel — labeled data pairs in tight grid formation",
+    "CONVERSION: Facility pages use Layout Option A (units-first) — one-line facility header (name | address | hours | phone), then dense unit availability table covering maximum screen area. Search bar is the dominant hero element. On market pages, data table with units/prices per facility row.",
+    "CONVERSION: Reserve/CTA buttons must be the single most visually prominent element on every page — larger than navigation links, higher contrast than body text, with hover state that increases visual weight. Use the primary color at full saturation. Every unit card and table row MUST have a Reserve button.",
+    "CONVERSION: Use badges to show real-time social proof and urgency — 'Most Popular' on the best-selling size, 'X Left!' in a warning color when availability is low, 'Available' in a success color for in-stock units. Price must be the largest text element in every unit card, displayed in the primary or accent color."
+  ],
+  "designPatterns": {
+    "card": "<div className=\"bg-surface rounded-lg p-6 border border-primary/10 hover:border-primary/25 hover:shadow-sm transition-all\">",
+    "button": "<a className=\"bg-primary text-white font-semibold px-7 py-3 rounded-md text-sm hover:bg-primary/90 transition\">",
+    "buttonSecondary": "<a className=\"border border-primary/20 text-primary font-medium px-7 py-3 rounded-md text-sm hover:bg-surface transition\">",
+    "heading": "<h2 className=\"font-heading text-3xl md:text-5xl font-bold text-text tracking-tight\">",
+    "subheading": "<p className=\"text-lg text-text-muted max-w-2xl\">",
+    "badge": "<span className=\"inline-flex items-center text-xs font-semibold text-primary bg-primary/8 rounded-md px-3 py-1\">",
+    "input": "<input className=\"w-full border border-primary/15 rounded-md px-4 py-2.5 text-sm text-text placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/40 transition\" />",
+    "sectionBg": "bg-background",
+    "sectionAltBg": "bg-surface",
+    "sectionDarkBg": "bg-primary text-white",
+    "navStyle": "bg-background/90 backdrop-blur-sm border-b border-primary/10",
+    "footerStyle": "bg-surface border-t border-primary/10",
+    "iconBox": "<div className=\"h-10 w-10 rounded-md bg-primary/8 flex items-center justify-center text-primary\">",
+    "divider": "<div className=\"h-px bg-primary/10\">"
+  }
+}
